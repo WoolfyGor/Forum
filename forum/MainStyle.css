@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ceeaff;
+}
+header{
+    background-color:skyblue;
+    display: flex;
+}
+.navblock{
+    margin: auto auto;
+    display: flex;
+    width: 60vw;
+    font-size: 2vw;
+}
+.logo{
+    margin-left: 100px;
+}
+*{
+    font-family: "Exo 2 Medium";
+
+}
+body{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+
+    width: 80vw;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Exo 2 Black";
+}
+.CurPage{
+    text-align: center;
+    width: 100%;
+padding: 40px 0px;
+}
+.CurPage>h2{
+    margin: 0;
+}
+.ForumBlock{width: 100%;
+
+    height: auto;
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+.RegErrorList{
+    margin: auto auto;
+    display: block;
+
+    width: 200px;
+    background-color: white;
+}
+.PostImg{
+  width: 900px;
+    height: auto;
+    margin: auto auto;
+}
+.LoginBLock{
+    display: none;
+    padding: 20px 0px;
+    margin-top: 20px;
+
+    width: 20vw;
+    border:1px solid black;
+    text-align: center;
+    right: 0;
+}
+
+label{
+    margin: 0px;
+    padding: 0px;
+
+    display: block;
+    font-size: 1.5vw;
+
+}
+.content{
+    display: flex;
+    width: auto;
+}
+input{
+    width: 10vw;
+    height: 2vw;
+}
+.Post{
+
+    margin: auto auto;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 97%;
+    height: 100px;
+    border:1px solid black;
+}
+.ForumBlock{
+    padding-top: 20px;
+
+}
+.PostTitleLable{
+    width: 400px;
+}
+
+.AddpostForm{
+
+    justify-content: space-between;
+    text-align: center;
+}
+
+.FormDiv{
+    display: block;
+text-align: left;
+
+}
+.contentPostAdd{
+margin: auto auto;
+}
+.PostBody{
+    width: 60vw;
+    margin: 100px auto;
+    height: auto;
+background-color: white;
+
+}
+.IdInput{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+}
+.Post{
+height: auto;
+position: relative;
+}
+.contentAc{
+
+    text-align: center;
+}
